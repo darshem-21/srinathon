@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Booking</title>
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/confirm-booking.css">
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+
+    <!-- Plugin for date/time and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerbar">
+            <div class="logo">
+                <img src="logo1.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Helpers</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <p id="service-head" style="padding-left:30px;font-size:24px;height:40px;" class="type">
+     
+        </p>
+        <p id="description" style="padding-left:30px;font-size:24px;height:40px;" class="none">
+        
+        </p>
+        <p id="cost" style="padding-left:30px;font-size:24px;height:40px;" class="123">
+           <b>Price:</b> Rs. 
+        </p>
+        
+        <input type="text" class="datepicker" value="Enter Date of visit" id="date" style="width: 92%; margin:2% 2%;background:rgb(255, 49, 128);padding:10px">
+        <input type="text" class="timepicker" value="Enter Time of visit" id="time" style="width: 92%; margin:2% 2%;background:rgb(255, 49, 128);padding:10px">
+        <button id="confirm_btn">Confirm Booking</button>
+        
+    </div>
+    <script src='JS/confirm-booking.js'></script>
+    </body>
+</html> 

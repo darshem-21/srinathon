@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In/Sign In</title>
+
+    <!-- link css files in this html  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+
+    <!-- firebasejs-->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerbar">
+            <div class="logo">
+                <img src="logo1.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Helpers</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="log_container">
+            <h2>Login Here</h2>
+            <input id="email" type="text" name="mail" placeholder="Enter your mail">
+            <input id="password" type="password" name="password" placeholder="Enter your password">
+            <button id="logd">Log In</button>
+            <h6><a id="reg" href="registration.html">Not having an account? Register Here</a></h6>
+            <h6><a id="forg_pass" href="#">Forgot Your Password</a></h6>
+        </div>
+    </div>
+    <script src='JS/firebase_login.js'></script>
+</body>
+</html>

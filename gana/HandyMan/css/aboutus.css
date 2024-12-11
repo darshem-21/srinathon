@@ -1,0 +1,189 @@
+/* CSS data for homepage and header*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background-img.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+
+header{
+  height: 300px;
+  background-position: center;
+}
+
+ul{ 
+padding-top:35px;
+  float: right;
+  list-style-type: none;
+  
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration:none;
+  color: rgb(1, 255, 234);
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+text-decoration:none;
+}
+
+/* ul li.active a{
+  background-color: white;
+  color: black;
+} */
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.headerbar{
+  max-width: 1200px;
+  margin: auto;
+
+}
+/* END: CSS data for header*/
+
+/* CSS data for body of about us*/
+*main{
+  padding: 0;
+  margin: 0;
+  width: 100%
+}
+.d1{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  color:#ECFBFC;
+  animation-name:  name ;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+
+
+}
+.d4{
+    position: absolute;
+    top: 75%;
+    margin-left: 37px;
+}
+
+.fea1{
+	text-align: center;
+	color: white;
+}
+
+.icon{
+	margin-bottom: 2%;
+	height: 20%;
+	width: 20%;
+}
+
+.hr1{
+	width: 90%;
+	border-style: dotted none none;
+	height: 0;
+	border-color: white;
+	border-width: 5px
+}
+
+.para1{
+	position: relative;
+	margin-left: 3%;
+	color: white;
+	animation-name:  name2 ;
+	animation-duration: 0.9s;
+	animation-fill-mode: forwards;
+}
+
+.paragraph{
+	position: absolute;
+	top: 45%;
+	left: 3%;
+	right: 2%;
+	font-family: 'Crimson Pro', serif;
+	line-height: 30px;
+	word-spacing: 10px;
+}
+
+.team
+{
+	position: absolute;
+	top: 60%;
+}
+
+@keyframes name {
+
+0%{  top:0%;}
+100%{top: 30%; }
+}
+@keyframes name2 {
+
+0%{  top:45%;}
+100%{top: 30%; }
+}
+
+
+.fea2{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+.icon{
+	margin-bottom: 2%;
+	height: 20%;
+	width: 20%;
+}
+
+.d5{
+	position: absolute;
+	top: 120%;
+	margin-left: 37px;
+}
+
+.team2{
+	padding: 30px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+	color:#f5fcc1;
+}
+
+h3
+{
+  text-align: center;
+}
+.image{
+  height: 60%;
+  width: 60%;
+  padding: 20px;
+}
+.pa1{
+  color:#ABF0E9;
+}
+.hea1{
+  color: #f5fcc1;
+}
+.ais:hover
+{
+  color:#035aa6;
+}
+
+/* END: CSS data for body of about us */

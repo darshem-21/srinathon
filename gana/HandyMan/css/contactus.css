@@ -1,0 +1,126 @@
+.form-message{
+padding-top:20px;
+margin:100px 54% 40px 20px;
+}
+
+.message-form{
+padding:10px;
+width:90%;
+background:transparent;
+border:none;
+border-bottom:1px solid white;
+color:white;
+font-size:20px;
+}
+
+#sub_btn{
+    border: 1px solid wheat;
+    padding: 10px 30px;
+    color:rgb(250, 246, 225);
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: teal;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height:40px;
+    margin-left:50px;
+    margin-right:100px;
+    width:100px;
+    margin-top: 20px;
+    font-weight: normal;
+    transition: 1s all;
+}
+#sub_btn:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.big{
+display:block;
+}
+
+div{
+display:block;
+}
+
+.contact{
+text-align:center;
+margin-top:100px;
+padding-top:20px;
+font-size:30px;
+color:rgb(205, 237, 243);
+padding-left:60px;
+padding-right:60px;
+padding-bottom:30px;
+}
+
+#form-message{
+padding-left:20px;
+padding-bottom:20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+/* CSS data for header*/
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background-img.jpg);
+    height: 100vh;
+    display:block;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    height: 100px;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(1, 255, 234);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ul li.active a{
+    background-color: white;
+    color: black;
+} */
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+

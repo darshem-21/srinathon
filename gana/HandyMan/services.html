@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helpers</title>
+    <!-- link css files in this html file  -->
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Firebase  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerbar">
+            <div class="logo">
+                <img src="logo1.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Helpers</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="city-box">
+        <select id="cities" class="div-toggle" data-target=".my-info">
+            <option>Select City</option>
+            <!-- Cities names added here -->
+        </select>
+    </div>
+
+    <!-- search bar  -->
+    <div class="search-box">
+        <input type="text" id="myInput" class="search-txt" placeholder="Type to search.." onkeyup="search()"/>
+        <a class="search-btn">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+
+    <div class="my-info" id="show_list">
+        <!-- Div class for each city here -->
+    </div>
+    <script src='JS/services.js'></script>
+</body>
+</html>

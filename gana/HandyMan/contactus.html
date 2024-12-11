@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<!-- link css files in this html  -->
+	<link rel="stylesheet" href="css/contactus.css">
+	<!-- firebasejs-->
+	<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+	
+</head>
+<body>
+    <header class="header">
+        <div class="main">
+            <div class="logo">
+                <img src="logo1.png" alt="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Helpers</a></li>
+                <li><a href="mybookings.html">My Bookings</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+	<div class="contact">
+		<h1 style="font-size:70px;color:black;font-family:Andalus "> <!-- inline css-->
+		We'd love to hear from you
+		</h1><br><br>
+		<p >Whether you have a question about features, trails, pricing, need a demo, or anything else, our team is ready to answer all your questions </p>   
+	</div>
+	<div class="form-message">
+		<form id="form-message">
+			<input type="text" class="message-form" name="name" placeholder="Your Name" required><br><br>
+			<input type="email" class="message-form" name="mail" placeholder="Email" required><br><br>
+			<textarea type="text" class="message-form" name="message" placeholder="Enter Your Message" row="4" required></textarea><br>
+			<br>
+			<input type="submit" id="sub_btn" value="Leave" >
+		</form>
+	</div>
+	<script src='JS/firebase_contactus.js'></script>
+</body>
+</html>
